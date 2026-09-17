@@ -8,8 +8,8 @@
 | Item | Value |
 |---|---|
 | Current sprint | Sprint 5 — first live source adapter (LinkedIn) |
-| Active tranche | S5T10 — DRAFT, not yet implemented |
-| Blocking issues | none |
+| Active tranche | S5T10 — ACCEPTED, code complete, live verification pending |
+| Blocking issues | none — **action needed from owner**: run one manual live search per `docs/linkedin_adapter_setup.md` and report the result |
 
 ## Open Work
 
@@ -19,12 +19,15 @@
 | Sprint 2 | S2T4, S2T5 | ACCEPTED — 14 tests passing |
 | Sprint 3 | S3T6, S3T7 | ACCEPTED — 20 tests passing |
 | Sprint 4 | S4T8, S4T9 | ACCEPTED — 19 tests passing |
-| Sprint 5 | S5T10 (LinkedIn adapter) | DRAFT — not yet dispatched/implemented |
+| Sprint 5 | S5T10 (LinkedIn adapter) | ACCEPTED — 8 tests passing, unverified against live LinkedIn |
 
 Full pipeline (JD text -> extraction -> confirmation -> boolean filter -> semantic rank ->
-reasons -> shortlist render -> suppression/deletion) is implemented and tested end-to-end
-against `MockSourceAdapter`. 96/96 tests passing as of 2026-09-17
-(`.venv/bin/python -m pytest tests/ -v`). Only the real (LinkedIn) source adapter remains.
+reasons -> shortlist render -> suppression/deletion -> LinkedIn adapter) is implemented and
+tested. 104/104 tests passing as of 2026-09-17 (`.venv/bin/python -m pytest tests/ -v`).
+`LinkedInAdapter`'s parsing logic (`src/adapters/linkedin_adapter.py`) is based on a fixture
+response shaped like documented examples of LinkedIn's internal search API from other
+open-source tools, not a verified live response — see `docs/linkedin_adapter_setup.md` and
+S5T10's completion report for the manual verification step still needed.
 
 ## Key Decisions
 

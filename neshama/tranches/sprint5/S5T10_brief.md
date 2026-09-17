@@ -1,6 +1,6 @@
 # Tranche S5T10 - BRIEF
 
-Status: DRAFT
+Status: ACCEPTED
 Owner: PM
 Created: 2026-09-17
 

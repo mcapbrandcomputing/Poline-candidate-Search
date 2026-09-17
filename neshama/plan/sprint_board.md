@@ -1,8 +1,8 @@
 <!-- Neshama template: edit with project specifics. -->
 # Sprint Board
 
-**Current Sprint**: 5 — First live source adapter (LinkedIn)  
-**Sprint Dates**: Sprints 1-4 completed 2026-09-17  
+**Current Sprint**: 5 — First live source adapter (LinkedIn) — code complete, live verification pending  
+**Sprint Dates**: Sprints 1-4 completed 2026-09-17; S5T10 completed 2026-09-17  
 **Last Updated**: 2026-09-17
 
 ---
@@ -11,7 +11,7 @@
 
 | ID | Story | Points | Blocked By |
 |----|-------|--------|------------|
-| S5T10 | Real LinkedIn source adapter | — | — |
+| — | — | — | — |
 
 ## 🔄 In Progress
 
@@ -38,6 +38,7 @@
 | S3T7 | Semantic ranking + reasons generation | — | Claude | 2026-09-17 |
 | S4T8 | Non-ranked shortlist UI | — | Claude | 2026-09-17 |
 | S4T9 | Suppression/deletion pipeline | — | Claude | 2026-09-17 |
+| S5T10 | Real LinkedIn source adapter | — | Claude | 2026-09-17 |
 
 ---
 
