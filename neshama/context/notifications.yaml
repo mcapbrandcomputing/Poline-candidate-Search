@@ -1,0 +1,15 @@
+# Neshama notification configuration
+# Used by neshama sprint run and neshama pm watch to send push notifications via ntfy.sh.
+#
+# ntfy.sh is a free, open-source push notification service.
+# Sign up at https://ntfy.sh or self-host for private topics.
+#
+# To enable: set 'topic' to your ntfy topic name.
+# Leave 'topic' empty (or remove this file) to disable all notifications.
+
+ntfy:
+  topic: ""                      # required — your unique ntfy topic (e.g. neshama-pm-yourname)
+  server: https://ntfy.sh        # optional — default https://ntfy.sh; override for self-hosted
+  token: ""                      # optional — Bearer token for private topics (leave empty for public)
+  priority: 3                    # optional — 1=min, 2=low, 3=default, 4=high, 5=max
+  heartbeat_minutes: 15          # PM watch alive ping interval in minutes; 0 to disable

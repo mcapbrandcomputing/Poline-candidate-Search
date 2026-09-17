@@ -1,0 +1,19 @@
+Senior Backend Engineer — Acme Corp
+
+We are looking for a Senior Backend Engineer to join our platform team.
+
+Requirements:
+- 5+ years of experience with Python or Go
+- Experience with distributed systems and microservices
+- Bachelor's degree in Computer Science or equivalent experience
+- Must be authorized to work in the United States
+- This role requires occasional travel to client sites
+
+Location: Hybrid, 3 days per week in our Austin, TX office.
+Compensation: $150,000 - $190,000 depending on experience.
+
+Nice to have:
+- Experience with Kubernetes and AWS
+- Familiarity with event-driven architectures
+
+We are an equal opportunity employer.

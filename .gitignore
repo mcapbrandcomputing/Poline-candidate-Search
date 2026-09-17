@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.jsonl
+.env
+.claude/settings.local.json
+data/
+neshama/state/
+neshama/.acl_db/
+neshama/logs/pm_decisions.jsonl
